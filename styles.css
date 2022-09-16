@@ -49,13 +49,23 @@ header div img {
 
 main {
   max-width: 580px;
-  width: 90%;
+  width: 90%; 
   margin: 32px auto;
 
   display: grid;
   gap: 24px;
 
-  margin-top: 32px;
+  margin-top: 32px
+}
+
+.profile {
+  color: white;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.profile a{
+  color: white;
 }
 
 section {
@@ -80,7 +90,7 @@ section p {
   letter-spacing: -0.18px;
   color: #A1A1AA;
 }
-
+       
 section ul {
   display: flex;
   flex-wrap: wrap;
@@ -155,4 +165,4 @@ main section:nth-child(3) {
     transform: translateY(0)
   }
 }
-}
+
